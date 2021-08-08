@@ -17,7 +17,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 print("""
 Скрипт был исправлен t.me/Xacker_Name
-Так же поситите магазин t.me/eze_pokupka3_BOT
+Чекайте каналы https://t.me/perexodnock
 
 
  [1] Бесконечный флуд 
@@ -36,7 +36,7 @@ if a == "1":
     client.start()
     os.system('cls' if os.name == 'nt' else 'clear')
     print('Спам начат!')
-    print('Телеграм канал: https://t.me/Skript_Browser_Automation_Studio')
+    print('Чекайте каналы https://t.me/perexodnock')
     print('Добавил дополнения к срипту https://t.me/Xacker_Name')
     print('Спасибо что используешь мои скрипты)')
     while True:
