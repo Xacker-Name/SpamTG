@@ -17,6 +17,7 @@
 <code>python3 SpamTG.py</code><br>
 <b>----------------------------------------------</b><br>
 Установка на Termux (Вводим все команды по очереди!):
+<br>
 <code>pkg update && pkg upgrade -y</code><br>
 <code>pkg install git</code><br>
 <code>pkg install python && pkg install python3</code><br>
