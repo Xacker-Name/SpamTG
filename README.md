@@ -30,4 +30,4 @@
 <br>
 <br>
 <br>
-<b>Если хотите начать спам с другова пишите <code>rm session_name.session</code><br></b>
+<b>Если хотите начать спам с другого пишите <code>rm session_name.session</code><br></b>
