@@ -45,7 +45,7 @@ if a == "1":
        client.send_message(idp, mes,)
        namber = namber +1
        print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-       time.sleep(0.5)
+       time.sleep(taims)
        
        
 
@@ -72,7 +72,7 @@ elif a == "2":
         client.send_message(idp, mes,)
         namber = namber +1
         print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-        time.sleep(0.5)      
+        time.sleep(taims)      
 
 elif a == "3":
     print(" ")
@@ -99,10 +99,10 @@ elif a == "3":
             client.send_message(idp, mes);
             namber = namber +1 
             print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio")             
-            time.sleep(0.5)
+            time.sleep(taims)
             client.send_message(idg, mes); 
             print([namber], "Сообщение отправлено ему", idg, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
            
     elif nn == "2":  
         idp = input(" Введите nick через @ первого человека: ")
@@ -121,13 +121,13 @@ elif a == "3":
             client.send_message(idp, mes);
             namber = namber +1
             print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
             client.send_message(idg, mes);
             print([namber], "Сообщение отправлено ему", idg, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
             client.send_message(idh, mes); 
             print([namber], "Сообщение отправлено ему", idh, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
 
     elif nn == "3":  
         idp = input(" Введите nick через @ первого человека: ")
@@ -147,15 +147,15 @@ elif a == "3":
             client.send_message(idp, mes); 
             namber = namber +1
             print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
             client.send_message(idg, mes); 
             print([namber], "Сообщение отправлено ему", idg, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
             client.send_message(idh, mes); 
             print([namber], "Сообщение отправлено ему", idh, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
             client.send_message(ida, mes); 
             print([namber], "Сообщение отправлено ему", ida, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(0.5)
+            time.sleep(taims)
 else:
     print(" Нету такого ")
