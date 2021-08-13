@@ -33,7 +33,6 @@ if a == "1":
     print(" ")
     idp = input("Введите nick через @ человека: ")
     mes = input("Текст сообщения: ")
-    taims = input('Сколько ждать перед отправкой сообщений?: ')
     client.start()
     os.system('cls' if os.name == 'nt' else 'clear')
     print('Спам начат!')
@@ -45,7 +44,7 @@ if a == "1":
        client.send_message(idp, mes,)
        namber = namber +1
        print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-       time.sleep(taims)
+       time.sleep(0)
        
        
 
@@ -57,7 +56,7 @@ elif a == "2":
     px = int(input(" Cообщений: "))
     idp = input(" Введите nick через @ человека: ")
     mes = input(" Текст сообщения: ")
-    taims = input('Сколько ждать перед отправкой сообщений?: ')
+
     
 
     client.start()
@@ -72,7 +71,7 @@ elif a == "2":
         client.send_message(idp, mes,)
         namber = namber +1
         print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-        time.sleep(taims)      
+        time.sleep(0.5)      
 
 elif a == "3":
     print(" ")
@@ -88,7 +87,6 @@ elif a == "3":
         idp = input(" Введите nick через @ первого человека: ")
         idg = input(" Введите nick через @ второго человека: ")
         mes = input(" Текст сообщения: ")
-        taims = input('Сколько ждать перед отправкой сообщений?: ')
         client.start()
         os.system('cls' if os.name == 'nt' else 'clear')
         print('Спам начат!')
@@ -109,7 +107,6 @@ elif a == "3":
         idg = input(" Введите nick через @ второго человека: ")
         idh = input(" Введите nick через @ третьего человека: ")
         mes = input(" Текст сообщения: ")
-        taims = input('Сколько ждать перед отправкой сообщений?: ')
         client.start()
         os.system('cls' if os.name == 'nt' else 'clear')
         print('Спам начат!')
@@ -121,13 +118,13 @@ elif a == "3":
             client.send_message(idp, mes);
             namber = namber +1
             print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
             client.send_message(idg, mes);
             print([namber], "Сообщение отправлено ему", idg, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
             client.send_message(idh, mes); 
             print([namber], "Сообщение отправлено ему", idh, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
 
     elif nn == "3":  
         idp = input(" Введите nick через @ первого человека: ")
@@ -135,7 +132,6 @@ elif a == "3":
         idh = input(" Введите nick через @ третьего человека: ")
         ida = input(" Введите nick через @ четвёртого человека: ")
         mes = input(" Текст сообщения: ")
-        taims = input('Сколько ждать перед отправкой сообщений?: ')
         client.start()
         os.system('cls' if os.name == 'nt' else 'clear')
         print('Спам начат!')
@@ -147,15 +143,15 @@ elif a == "3":
             client.send_message(idp, mes); 
             namber = namber +1
             print([namber], "Сообщение отправлено ему", idp, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
             client.send_message(idg, mes); 
             print([namber], "Сообщение отправлено ему", idg, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
             client.send_message(idh, mes); 
             print([namber], "Сообщение отправлено ему", idh, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
             client.send_message(ida, mes); 
             print([namber], "Сообщение отправлено ему", ida, "Подпишись https://t.me/Skript_Browser_Automation_Studio") 
-            time.sleep(taims)
+            time.sleep(0.5)
 else:
     print(" Нету такого ")
